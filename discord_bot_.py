@@ -63,10 +63,7 @@ async def on_message(message):
 
 
 
-@bot.command()
-async def cube(ctx,arg):
-    print(arg)
-    await ctx.send(int(arg)**3)
+
 
 bot.run(config.TOKEN)
 
